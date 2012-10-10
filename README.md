@@ -1,7 +1,7 @@
 #Mimic#
 ##Rspec style mocking and stubbing for NullObjects, Fakes, and more!##
 
-Inspired by [N00k's](http://www.twitter.com/n00k) talk at (MagicRuby)[http://magic-ruby.com/], I decided to work on a minimalistic library for mocking and stubbing full classes. The original purpose would be to have a NullObject consistently stay in sync with its real object equivelant with minimal effort.
+Inspired by [r00k's](http://www.twitter.com/r00k) talk at [magicruby](http://magic-ruby.com/), I decided to work on a minimalistic library for mocking and stubbing full classes. The original purpose would be to have a NullObject consistently stay in sync with its real object equivelant with minimal effort.
 
 ## Installing ##
 
@@ -91,6 +91,7 @@ Pretty self explanatory. These are simply here as a gentle reminder that will he
 ## Developing for Mimic ##
 If you have any feature requests or bug fixes, I actively encourage you to try out integrating those changes yourself and making a pull request.
 
+First fork the repo
 ````sh
 git clone [GITHUB GIT URL]
 bundle
