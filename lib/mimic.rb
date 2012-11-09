@@ -1,5 +1,3 @@
-require 'rubygems'
-require 'pry'
 class MethodNotDefined < StandardError
 end
 
