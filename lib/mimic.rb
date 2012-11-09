@@ -49,5 +49,3 @@ module Mimic
     end
   end
 end
-
-
