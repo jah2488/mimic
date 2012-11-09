@@ -1,6 +1,5 @@
 require 'mimic'
 
-# TEST CLASS
 class MyNode
   def hello
     "hi"
@@ -28,6 +27,7 @@ end
 
 
 describe Mimic do
+
   it "mocks all methods on fake class" do
     MyFakeNode.instance_methods(false).should == MyNode.instance_methods(false)
   end
@@ -77,6 +77,17 @@ describe Mimic do
         class_stubs(:subtract) { "10" }
       end
     }.should raise_error ClassMethodNotDefined
+  end
+
+  it "should raise exceptions on methods being called with wrong amount of arguements" do
+    lambda {
+      class MyNullObject
+        include Mimic
+        mimics MyNode
+      end
+      a = MyNullObject.new
+      a.hello(10)
+    }.should raise_error ArgumentError
   end
 
 end
