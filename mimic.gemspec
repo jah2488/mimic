@@ -8,6 +8,7 @@ Gem::Specification.new do |gem|
   gem.summary       = %q{Rspec Style Mocking and Stubbing for creating Null Objects and Faking Classes with error handling to keep your Fake's in sync}
   gem.homepage      = "https://github.com/jah2488/mimic"
 
+  gem.add_development_dependency "rake"
   gem.add_development_dependency "rspec"
   gem.files         = `git ls-files`.split($\)
   gem.executables   = gem.files.grep(%r{^bin/}).map{ |f| File.basename(f) }
