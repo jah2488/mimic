@@ -7,13 +7,13 @@ Inspired by [r00k's](http://www.twitter.com/r00k) talk at [magicruby](http://mag
 ## Installing ##
 
 ````sh
-gem install mimic
+gem install mimic-rb
 ````
 or
 
 ````ruby
 #Gemfile
-gem 'mimic'
+gem 'mimic-rb'
 ````
 
 ````sh
