@@ -1,4 +1,4 @@
-#Mimic [![Build Status](https://secure.travis-ci.org/jah248/mimic.png)](https://secure.travis-ci.org/jah2488/mimic.png)
+#Mimic [![Build Status](https://secure.travis-ci.org/jah248/mimic.png?branch=master)](https://secure.travis-ci.org/jah2488/mimic.png)
 
 ##Rspec style mocking and stubbing for NullObjects, Fakes, and more!##
 
